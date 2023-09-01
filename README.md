@@ -4,9 +4,9 @@ permalink: "/about/"
 layout: page
 ---
 
-## Installation
+## Welcome
 
-Just fork this [repository](https://github.com/niklasbuschmann/contrast) and adjust the `_config.yml` to use with [Github Pages](https://pages.github.com/) and your page is done.
+***Hey fellow readers, welcome to my personal website. As you have perhaps gathered thus far, my name is Xihang. I am a researcher in Health Data Science at University of Oxford (Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences). Before that, I was a maths student at the same univeristy.***
 
 ## Features
 
