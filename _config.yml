@@ -1,6 +1,6 @@
-title: "Blog Title"
-author: "Blog Author"
-description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
+title: "Xihang's personal website"
+author: "Xihang C."
+description: "Last updated: 1st Sept. 2023"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
