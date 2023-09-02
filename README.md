@@ -4,4 +4,4 @@ permalink: "/miscellaneous/"
 layout: page
 ---
 
-![alt text](https://github.com/chen-xihang/chen-xihang.github.io/blob/master/img.jpeg)
+![Image](/chen-xihang.github.io/tree/master/assets/image.jpeg)
