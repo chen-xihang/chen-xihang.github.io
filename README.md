@@ -1,2 +1,2 @@
-# chen-xihang.github.io
+# Github.io page
 Xihang's personal website
