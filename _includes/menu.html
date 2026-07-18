@@ -3,7 +3,15 @@
   {%- assign node = site.pages | where: "name", item.file | first -%}
   {%- assign url = item.url | default: node.url -%}
   {%- assign title = item.title | default: node.title -%}
-  <a href="{{ url | relative_url }}" {% if url == page.url %}class="selected"{% endif %}>
+  {%- assign first = url | slice: 0, 1 -%}
+  {%- if url contains "://" or url contains "mailto:" -%}
+    {%- assign href = url -%}
+  {%- elsif first == "/" -%}
+    {%- assign href = url | relative_url -%}
+  {%- else -%}
+    {%- assign href = "/" | append: url | relative_url -%}
+  {%- endif -%}
+  <a href="{{ href }}" {% if url == page.url %}class="selected"{% endif %}>
     {%- if item.icon -%}<svg aria-label="{{ title }}" class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#{{ item.icon }}"></use></svg>{%- else -%}{{ title }}{%- endif -%}
   </a>
 {%- endfor -%}

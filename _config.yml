@@ -1,32 +1,24 @@
-title: "Xihang's personal website"
-author: "Xihang C."
-description: "Last updated: 1st Jul. 2024"
+title: "Xihang Chen"
+author: "Xihang Chen"
+description: "Researcher in Health Data Science at NDORMS, University of Oxford."
 permalink: /:title/
 lang: "en"
-excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
-
-# Layout
-
-show_excerpts: true        # show article excerpts on the home page
-show_frame: true           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
-minimal: false             # use a dark header
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - UNLICENSE.txt
+  - vendor
+  - .bundle
+  - .bundle_home
 
 # Menu
 
-navigation:                # accepts {file, title, url, icon, sidebaricon}
+navigation:
   - {file: "index.html"}
   - {file: "mis.html"}
 
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+external:
   - {title: Work Mail, icon: envelope, url: "mailto:xihang.chen@ndorms.ox.ac.uk"}
   - {title: Github, icon: github, url: "https://github.com/chen-xihang"}
   - {title: LinkedIn, icon: linkedin, url: "https://uk.linkedin.com/in/xihang-chen-7a1658221"}
-
-comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
-
-plugins:
- - jekyll-feed

@@ -1,3 +1,3 @@
-## Personal Website Documenting Academic and Open-source contributions
+## Xihang Chen
 
-[https://github.com/chen-xihang/chen-xihang.github.io](https://chen-xihang.github.io/)
+Personal website published with GitHub Pages at [chen-xihang.github.io](https://chen-xihang.github.io/).
