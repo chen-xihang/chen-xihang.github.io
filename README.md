@@ -1,2 +1,1 @@
-# Github.io page
-Xihang's personal website
+## Personal Website Documenting Academic and Open-source contributions
