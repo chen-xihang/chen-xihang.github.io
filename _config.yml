@@ -1,6 +1,5 @@
 title: "Xihang Chen"
 author: "Xihang Chen"
-description: "Researcher in Health Data Science at NDORMS, University of Oxford."
 permalink: /:title/
 lang: "en"
 exclude:
@@ -16,7 +15,6 @@ exclude:
 
 navigation:
   - {file: "index.html"}
-  - {file: "mis.html"}
 
 external:
   - {title: Work Mail, icon: envelope, url: "mailto:xihang.chen@ndorms.ox.ac.uk"}
