@@ -15,6 +15,9 @@ exclude:
 
 navigation:
   - {file: "index.html"}
+  - {file: "academic-research.html"}
+  - {file: "open-source-contributions.html"}
+  - {file: "masters-dissertation.html"}
 
 external:
   - {title: Work Mail, icon: envelope, url: "mailto:xihang.chen@ndorms.ox.ac.uk"}
