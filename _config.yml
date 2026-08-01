@@ -14,7 +14,6 @@ exclude:
 # Menu
 
 navigation:
-  - {file: "index.html"}
   - {file: "academic-research.html"}
   - {file: "open-source-contributions.html"}
   - {file: "masters-dissertation.html"}
