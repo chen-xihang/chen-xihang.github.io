@@ -19,6 +19,4 @@ navigation:
   - {file: "masters-dissertation.html"}
 
 external:
-  - {title: Work Mail, icon: envelope, url: "mailto:xihang.chen@ndorms.ox.ac.uk"}
-  - {title: Github, icon: github, url: "https://github.com/chen-xihang"}
   - {title: LinkedIn, icon: linkedin, url: "https://uk.linkedin.com/in/xihang-chen-7a1658221"}
