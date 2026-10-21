@@ -14,9 +14,9 @@ exclude:
 # Menu
 
 navigation:
-  - {file: "academic-research.html"}
-  - {file: "open-source-contributions.html"}
-  - {file: "masters-dissertation.html"}
+  - {title: "Research", url: "/#research"}
+  - {title: "Open Source", url: "/#open-source"}
+  - {title: "Dissertation", url: "/#dissertation"}
 
 external:
   - {title: LinkedIn, icon: linkedin, url: "https://uk.linkedin.com/in/xihang-chen-7a1658221"}
